@@ -41,7 +41,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <a href="#" className="inline-block mb-6">
-              <img src={logo} alt="D&B Co" className="h-16 w-auto object-contain brightness-0 invert" />
+              <img src={logo} alt="D&B Co" className="h-16 w-auto object-contain" />
             </a>
             <p className="font-body text-sm text-white/70 leading-relaxed mb-6">
               Spaces that Inspire.
