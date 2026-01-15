@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -61,8 +61,8 @@
     --shadow-xl: 0 24px 64px -16px hsl(220 15% 15% / 0.2);
 
     /* Typography */
-    --font-heading: 'Cormorant Garamond', serif;
-    --font-body: 'Outfit', sans-serif;
+    --font-heading: 'Sora', sans-serif;
+    --font-body: 'Sora', sans-serif;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
