@@ -130,6 +130,20 @@
   h6 {
     font-family: var(--font-heading);
   }
+
+  /* Ensure numbers use heading font */
+  body {
+    font-variant-numeric: lining-nums;
+  }
+
+  /* Apply heading font to all numeric content */
+  * {
+    font-feature-settings: "tnum" 1;
+  }
+
+  .font-heading {
+    font-family: var(--font-heading) !important;
+  }
 }
 
 @layer components {
