@@ -7,6 +7,7 @@ import portfolio3 from "@/assets/portfolio_edu_lab.png";
 import portfolio4 from "@/assets/workspace_interior.png";
 import portfolio5 from "@/assets/education_space.png";
 import portfolio6 from "@/assets/hero_background.png";
+import portfolio7 from "@/assets/corporate_cafeteria.jpg";
 
 const projects = [
   {
@@ -27,19 +28,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Executive Headquarters",
+    title: "Corporate Cafeteria",
     category: "Corporate",
-    location: "Riyadh, KSA",
-    size: "medium",
-    image: portfolio2,
-  },
-  {
-    id: 4,
-    title: "Innovation Hub",
-    category: "Corporate",
-    location: "Cairo, Egypt",
-    size: "small",
-    image: portfolio4,
+    location: "Dubai, UAE",
+    size: "large",
+    image: portfolio7,
   },
   {
     id: 5,
