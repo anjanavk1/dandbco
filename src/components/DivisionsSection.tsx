@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
-import educationImage from "@/assets/education_space.png";
-import workspaceImage from "@/assets/workspace_interior.png";
+import educationImage from "@/assets/education_classroom.jpg";
+import workspaceImage from "@/assets/corporate_meeting.jpg";
 
 const divisions = [
   {
