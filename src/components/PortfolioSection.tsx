@@ -1,30 +1,29 @@
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
-import portfolio1 from "@/assets/portfolio_edu_campus.png";
-import portfolio2 from "@/assets/portfolio_corp_hq.png";
-import portfolio3 from "@/assets/portfolio_edu_lab.png";
 // Reusing assets for demonstration since limit reached, but in real app would use unique
-import portfolio4 from "@/assets/workspace_interior.png";
-import portfolio5 from "@/assets/education_space.png";
-import portfolio6 from "@/assets/hero_background.png";
 import portfolio7 from "@/assets/corporate_cafeteria.jpg";
+import portfolio8 from "@/assets/education_lounge.jpg";
+import portfolio9 from "@/assets/education_library.jpg";
+import portfolio10 from "@/assets/education_auditorium.jpg";
+import portfolio11 from "@/assets/education_corridor.jpg";
+import portfolio12 from "@/assets/education_waiting_area.jpg";
 
 const projects = [
   {
     id: 1,
-    title: "City University College",
+    title: "Student Lounge",
     category: "Education",
-    location: "Qatar",
+    location: "Dubai, UAE",
     size: "large",
-    image: portfolio1,
+    image: portfolio8,
   },
   {
     id: 2,
-    title: "Nord Anglia International",
+    title: "Modern Library",
     category: "Education",
-    location: "Dubai, UAE",
+    location: "Abu Dhabi, UAE",
     size: "medium",
-    image: portfolio3,
+    image: portfolio9,
   },
   {
     id: 3,
@@ -35,20 +34,28 @@ const projects = [
     image: portfolio7,
   },
   {
-    id: 5,
-    title: "Modern Library",
-    category: "Education",
-    location: "Abu Dhabi, UAE",
-    size: "small",
-    image: portfolio5,
-  },
-  {
-    id: 6,
-    title: "Research & Development Campus",
+    id: 4,
+    title: "Main Auditorium",
     category: "Education",
     location: "Doha, Qatar",
     size: "large",
-    image: portfolio6,
+    image: portfolio10,
+  },
+  {
+    id: 5,
+    title: "Breakout Space",
+    category: "Education",
+    location: "Riyadh, KSA",
+    size: "small",
+    image: portfolio11,
+  },
+  {
+    id: 6,
+    title: "Reception Area",
+    category: "Education",
+    location: "Cairo, Egypt",
+    size: "medium",
+    image: portfolio12,
   },
 ];
 
