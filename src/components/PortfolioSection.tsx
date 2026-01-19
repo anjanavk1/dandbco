@@ -7,6 +7,7 @@ import portfolio9 from "@/assets/education_library.jpg";
 import portfolio10 from "@/assets/education_auditorium.jpg";
 import portfolio11 from "@/assets/education_corridor.jpg";
 import portfolio12 from "@/assets/education_waiting_area.jpg";
+import portfolio13 from "@/assets/education_new_classroom.jpg";
 
 const projects = [
   {
@@ -56,6 +57,14 @@ const projects = [
     location: "Riyadh, KSA",
     size: "medium",
     image: portfolio12,
+  },
+  {
+    id: 7,
+    title: "The English College",
+    category: "Education",
+    location: "Dubai, UAE",
+    size: "large",
+    image: portfolio13,
   },
 ];
 
